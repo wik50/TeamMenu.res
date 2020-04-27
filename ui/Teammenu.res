@@ -186,111 +186,7 @@
 
 
 
-"Background_buttons"
-	{
-		"ControlName"	   "ImagePanel"
-		"fieldName"		   "buttons_background1_warnings_warden"
-		"xpos"		       "35"
-		"ypos"		       "450"
-		"wide"		       "200"
-		"tall"		       "150"
-		"autoResize"	   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
-		"pinCorner"		   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
-		"visible"		   "1"           // "0" = invisible "1" visible
-		"enabled"		   "1"           // "0" = disabled "1" enabled
-		"paintborder"      "1"           //Draw the border "0" = OFF "1" ON
-		"border"           "HUD_Border"   //"MenuBorder"  //Define the boarder look, ClientScheme "Boarders" section only
-        "paintbackground"  "1"		     //Paint the background "0" = OFF "1" ON
-		"fillcolor"		   "0 0 0 200"	 //Define background color, ClientScheme "color" section or a RGB 		
-		"scaleImage"	   "0"           //"0" = OFF "1" ON scale the image to its specified width and height.
-	}
 
-
-"Admin_info_warnings"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"AdminInfo"
-		"font"			"Title"  
-		"xpos"			"35"  
-		"ypos"			"460"   
-		"wide"			"100"  
-		"tall"			"15"   
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"Don't talk over warden"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-    }	
-			
-
-	"Adminsay_dont_talk_over_1"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"AdminSay"
-		"font"			"DefaultSmall"
-		"xpos"		    "35"   
-		"ypos"		    "470"	
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"		"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"Don't talk over warden 1"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Command"		"sm_say Don't talk over warden please."
-		
-    }
-	
-	"Adminsay_dont_talk_over_2"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"AdminSay"
-		"font"			"DefaultSmall"
-		"xpos"		    "35"   
-		"ypos"		    "480"	
-		"wide"		    "100"   
-		"tall"		    "15"    
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Don't talk over warden 2"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"		
-		"Command"		"sm_say Dont talk over warden please. Or you will be muted!"
-		
-    }
-	
-	"Adminsay_dont_talk_over_3"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"AdminSay"
-		"font"			"DefaultSmall"
-		"xpos"		    "35"   
-		"ypos"		    "500"	
-		"wide"		    "100"   
-		"tall"		    "15"    
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Don't talk over warden 3"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"		
-		"Command"		"sm_say Last warning! Next one talking over warden will be muted!"
-		
-    }
 
 
 "Background_buttons"
@@ -300,7 +196,7 @@
 		"xpos"		       "180"
 		"ypos"		       "100"
 		"wide"		       "200"
-		"tall"		       "150"
+		"tall"		       "130"
 		"autoResize"	   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
 		"pinCorner"		   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
 		"visible"		   "1"           // "0" = invisible "1" visible
@@ -320,7 +216,7 @@
 		"fieldName"		"AdminInfo"
 		"font"			"Title"  
 		"xpos"			"200"  
-		"ypos"			"90"   
+		"ypos"			"80"   
 		"wide"			"150"  
 		"tall"			"15"   
 		"autoResize"	"0"
@@ -340,9 +236,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"AdminInfo"
 		"font"			"Title"  
-		"xpos"			"290"  
+		"xpos"			"200"  
 		"ypos"			"110"   
-		"wide"			"100"  
+		"wide"			"150"  
 		"tall"			"15"   
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -353,6 +249,51 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
     }	
+
+"Adminsay_dont_disrespect"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "200"   
+		"ypos"		    "120"	
+		"wide"		    "80"     
+		"tall"		    "15"      
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Don't disrespect"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say Don't disrespect."
+		
+    }
+	
+	
+	"Adminsay_dont_armory_camp"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "200"   
+		"ypos"		    "150"	
+		"wide"		    "80"     
+		"tall"		    "15"      
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Don't camp armory"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say Don't camp armory."
+		
+    }
 
 
 "Adminsay_dont_camp"
@@ -430,7 +371,7 @@
 		"xpos"		       "380"
 		"ypos"		       "100"
 		"wide"		       "200"
-		"tall"		       "150"
+		"tall"		       "130"
 		"autoResize"	   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
 		"pinCorner"		   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
 		"visible"		   "1"           // "0" = invisible "1" visible
@@ -594,7 +535,111 @@
 		
     }
 	
+	"Background_buttons"
+	{
+		"ControlName"	   "ImagePanel"
+		"fieldName"		   "buttons_background1_warnings_warden"
+		"xpos"		       "35"
+		"ypos"		       "250"
+		"wide"		       "200"
+		"tall"		       "150"
+		"autoResize"	   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
+		"pinCorner"		   "0"           // NO - 0, RIGHT - 1 , DOWN - 2, DOWNANDRIGHT - 3
+		"visible"		   "1"           // "0" = invisible "1" visible
+		"enabled"		   "1"           // "0" = disabled "1" enabled
+		"paintborder"      "1"           //Draw the border "0" = OFF "1" ON
+		"border"           "HUD_Border"   //"MenuBorder"  //Define the boarder look, ClientScheme "Boarders" section only
+        "paintbackground"  "1"		     //Paint the background "0" = OFF "1" ON
+		"fillcolor"		   "0 0 0 200"	 //Define background color, ClientScheme "color" section or a RGB 		
+		"scaleImage"	   "0"           //"0" = OFF "1" ON scale the image to its specified width and height.
+	}
+
+
+"Admin_info_warnings"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"AdminInfo"
+		"font"			"Title"  
+		"xpos"			"35"  
+		"ypos"			"260"   
+		"wide"			"100"  
+		"tall"			"15"   
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Don't talk over warden"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+    }	
+			
+
+	"Adminsay_dont_talk_over_1"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "35"   
+		"ypos"		    "270"	
+		"wide"			"100"
+		"tall"			"15"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Don't talk over warden 1"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"sm_say Don't talk over warden please."
+		
+    }
 	
+	"Adminsay_dont_talk_over_2"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "35"   
+		"ypos"		    "280"	
+		"wide"		    "100"   
+		"tall"		    "15"    
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Don't talk over warden 2"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say Dont talk over warden please. Or you will be muted!"
+		
+    }
+	
+	"Adminsay_dont_talk_over_3"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "35"   
+		"ypos"		    "290"	
+		"wide"		    "100"   
+		"tall"		    "15"    
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Don't talk over warden 3"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say Last warning! Next one talking over warden will be muted!"
+		
+    }
 
 }
 
