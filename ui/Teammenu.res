@@ -1,7 +1,7 @@
-"Resource/UI/TeamMenu.res"  // Wik50 Teammenu gui for Admining and admin commands ver.04
+"Resource/UI/TeamMenu.res"  // Wik50 Teammenu gui for Admining and admin commands ver.05
 
 
-// move talk over warden warnings further down and make new window for it, then other arnings are alone.
+
 
 {
 	"team"
