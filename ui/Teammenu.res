@@ -300,6 +300,29 @@
 		"Command"		"sm_say Don't spam mic please."
 		
     }
+	
+	
+	"Adminsay_For_rules_etc"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "200"   
+		"ypos"		    "210"	
+		"wide"		    "80"     
+		"tall"		    "15"      
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"!rules !motd and !guide"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say Please type !rules, !motd or !guide in chat if you are unsure of the rules or how to play on the server."
+		
+    }
 
 
 
@@ -368,6 +391,29 @@
 		"Command"		"sm_say Don't spam radio please."
 		
     }
+	
+	"Adminsay_Been_banned_gagged_or_muted"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"AdminSay"
+		"font"			"DefaultSmall"
+		"xpos"		    "300"   
+		"ypos"		    "210"	
+		"wide"		    "80"     
+		"tall"		    "15"      
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Info to player muted/gagged/ctbanned etc"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"		
+		"Command"		"sm_say If you have been Ctbanned, Muted or Gagged. Please go to hellclan.co.uk."
+		
+    }
+	
 	
 	
 	
