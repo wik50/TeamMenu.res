@@ -318,7 +318,7 @@
 		"visible"		   "1"           // "0" = invisible "1" visible
 		"enabled"		   "1"           // "0" = disabled "1" enabled
 		"paintborder"      "0"           //Draw the border "0" = OFF "1" ON
-		"image"		       "../vgui/gfx/VGUI/helllogo"		
+		"image"		       "Helllogo"		
 		"scaleImage"	   "1"           //"0" = OFF "1" ON scale the image to its specified width and height.
         "paintbackground"  "1"		     //Paint the background "0" = OFF "1" ON
 		"fillcolor"		"0 0 0 0"	     //Define background color, ClientScheme "color" section or a RGB		
@@ -965,7 +965,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say ¦ If you are unsure of the servers rules or how to play as ct please check: ¦\n- !rules\n- !motd\n- and\n- !guide"
+		"Command"		"sm_say If you are unsure of the servers rules or how to play as ct please check: rules !motd and !guide"
 	}
 	"KickAimAFK"
 	{
