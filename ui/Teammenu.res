@@ -1,4 +1,4 @@
-// by DarkSkull
+// by wik50
 "Resource/UI/TeamMenu.res"
 {
 //////////////// TEAM
