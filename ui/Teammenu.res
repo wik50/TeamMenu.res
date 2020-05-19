@@ -965,7 +965,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say If you are unsure of the servers rules or how to play as ct please check: rules !motd and !guide"
+		"Command"		"sm_say If you are unsure of the servers rules or how to play as ct please check: !rules !motd and !guide"
 	}
 	"KickAimAFK"
 	{
