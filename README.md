@@ -7,7 +7,7 @@
 
 ## General info
 
-TeamMenu in Counter-Strike:Source that shows Ct/T team to choose, also made custom with admin options
+TeamMenu in Counter-Strike:Source that shows Ct/T team to choose, also made custom with admin options adapted for jailbreak admining.
 
 ## Installation
 
