@@ -293,7 +293,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"by   l|l.:.wik50.:."
+		"labelText"		"by   l|l.:.wik50.:. Tested and debugged by Bandit"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"	
@@ -318,7 +318,7 @@
 		"visible"		   "1"           // "0" = invisible "1" visible
 		"enabled"		   "1"           // "0" = disabled "1" enabled
 		"paintborder"      "0"           //Draw the border "0" = OFF "1" ON
-		"image"		       "Helllogo"		
+		"image"		       "../vgui/gfx/VGUI/Helllogo"		
 		"scaleImage"	   "1"           //"0" = OFF "1" ON scale the image to its specified width and height.
         "paintbackground"  "1"		     //Paint the background "0" = OFF "1" ON
 		"fillcolor"		"0 0 0 0"	     //Define background color, ClientScheme "color" section or a RGB		
@@ -1029,7 +1029,26 @@
 	}
 	
 
-	
+	"noracism"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"noracism"
+		"font"			"DefaultSmall"
+		"xpos"			"500"
+		"ypos"			"226"
+		"wide"			"80"
+		"tall"			"15"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"No racism"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"sm_say No racism please."
+	}
 
 
 
