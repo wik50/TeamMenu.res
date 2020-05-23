@@ -17,13 +17,13 @@ TeamMenu in Counter-Strike:Source that shows Ct/T team to choose, also made cust
 
 2.Then locate a folder named "custom".
 
-3.Inside the "custom" folder, unzip the whole "team-menu" folder.
+3.Inside the "custom" folder, unzip the whole "TeamMenu" folder.
 
-4.When the unzip is done, the folder structure should look like: cstrike\team_menu\materials\vgui\gfx\VGUI 
+4.When the unzip is done, the folder structure should look like: cstrike\teammenu\materials\vgui\gfx\VGUI 
 
 Inside that "VGUI" folder ther should be 2 files named Helllogo with .vtf and .vmt extensions. Those files are the Logo itself.
 
-5. The second folder structure after unzip is done should look like: cstrike\team_menu\resource\ui
+5. The second folder structure after unzip is done should look like: cstrike\teammenu\resource\ui
 
 Inside the "ui" folder the teammenu.res file is located and if it exist there that means it has been installed properly.
 
