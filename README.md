@@ -1,8 +1,6 @@
 # TeamMenu.res
 
-![20200522211646_1](https://user-images.githubusercontent.com/10328699/82725515-b82ec600-9cdd-11ea-8c04-fe91a887735f.jpg)
-
-
+![20200519105458_1](https://user-images.githubusercontent.com/10328699/82306343-3aa64580-99bf-11ea-9fea-390089740cd9.jpg)
 
 
 
@@ -13,14 +11,27 @@ TeamMenu in Counter-Strike:Source that shows Ct/T team to choose, also made cust
 
 ## Installation TeamMenu
 
-Download ui folder to your pc
-Move the whole folder directly to your counter-strike:source gaming folder.
-Example: C:\Program Files\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\custom folder\resource\ui
-If the last folders does not exist, please create them and put ui folder in it.
-When you see the ui folder in its right place, start the game and join a server.
-When inside the server press "m" and you will get the teammenu with admin options.
+//This is a short and brief installation readme of the TeamMenu.
 
-For the logo to appear. Download the both files Helllogo.vtf and Helllogo.vmt. Put them both inside the folder called "VGUI". If that path is not available, make path's accordingly to it eg: C:\Program Files\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\custom folder\materials\vgui\gfx\VGUI.
+1.first go to your own cstrike folder where you have the game installed.
+
+2.Then locate a folder named "custom".
+
+3.Inside the "custom" folder, unzip the whole "team-menu" folder.
+
+4.When the unzip is done, the folder structure should look like: cstrike\team_menu\materials\vgui\gfx\VGUI 
+
+Inside that "VGUI" folder ther should be 2 files named Helllogo with .vtf and .vmt extensions. Those files are the Logo itself.
+
+5. The second folder structure after unzip is done should look like: cstrike\team_menu\resource\ui
+
+Inside the "ui" folder the teammenu.res file is located and if it exist there that means it has been installed properly.
+
+6. Now start your "css" game and join a server of your choice (Hell Jailbreak for example).
+
+7. When you first come on the server you will see the TeamMenu to choose your side, but now you will also see the admin options with short explanations.
+
+8. After choosing a team. Press "M" button on your keyboard as if you would choose a team, and you will see all the options with short explanations.
 
 
 
