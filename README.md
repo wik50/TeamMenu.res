@@ -1,7 +1,6 @@
 # TeamMenu.res
 
-![20200519105458_1](https://user-images.githubusercontent.com/10328699/82306343-3aa64580-99bf-11ea-9fea-390089740cd9.jpg)
-
+![20200703172101_1](https://user-images.githubusercontent.com/10328699/86482127-9c452800-bd51-11ea-9f2f-8d249c42441c.jpg)
 
 
 
