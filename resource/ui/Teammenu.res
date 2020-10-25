@@ -725,7 +725,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say Don't disrespect."
+		"Command"		"sm_say Don't disrespect please."
 	}
 	"camparmory"
 	{
@@ -805,7 +805,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say Don't spam mic please."
+		"Command"		"sm_say Please one person on mic at a time. Avoid talking through each other please."
 	}
 	"talkoverwarden"
 	{
@@ -1107,6 +1107,46 @@
 		"brighttext"		"0"
 		"Command"		"sm_say Please do not ghost."
 	}
+	"WarnCtshootinginstack"
+	{
+	    "ControlName"		"Button"
+		"fieldName"		"Warnforshootinstack"
+		"font"			"DefaultSmall"
+		"xpos"			"500"
+		"ypos"			"274"
+		"wide"			"80"
+		"tall"			"15"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"If C'ts shoot stack."
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"sm_say CTs, quick reminder. NEVER shoot in stacks please.
+	}
+	"Warnctbaiting"
+	{
+	    "ControlName"		"Button"
+		"fieldName"		"Warnctforbaiting"
+		"font"			"DefaultSmall"
+		"xpos"			"500"
+		"ypos"			"290"
+		"wide"			"80"
+		"tall"			"15"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Warn Ct baiting"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"sm_say Please do not bait CTs. Keep your distance from the Ts.
+	}
 
 
 	"Weapon_Back"
@@ -1145,21 +1185,6 @@
 		"fillcolor"		   "0 0 0 40"	 //Define background color, ClientScheme "color" section or a RGB 		
 		"scaleImage"	   "0"           //"0" = OFF "1" ON scale the image to its specified width and height.
 	}
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-
 
 
 	"hell_Back"
