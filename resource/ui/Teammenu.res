@@ -805,7 +805,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say Please one person on mic at a time. Avoid talking through each other please."
+		"Command"		"sm_say Don't spam mic please."
 	}
 	"talkoverwarden"
 	{
@@ -1107,10 +1107,10 @@
 		"brighttext"		"0"
 		"Command"		"sm_say Please do not ghost."
 	}
-	"WarnCtshootinginstack"
+	"warnforbaiting"
 	{
-	    "ControlName"		"Button"
-		"fieldName"		"Warnforshootinstack"
+		"ControlName"		"Button"
+		"fieldName"		"warnforbaiting"
 		"font"			"DefaultSmall"
 		"xpos"			"500"
 		"ypos"			"274"
@@ -1121,16 +1121,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"If C'ts shoot stack."
+		"labelText"		"Warn for baiting"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say CTs, quick reminder. NEVER shoot in stacks please.
+		"Command"		"sm_say Please do not bait CTs. Keep your distance from the Ts."
 	}
-	"Warnctbaiting"
+	"warnshootinstack"
 	{
-	    "ControlName"		"Button"
-		"fieldName"		"Warnctforbaiting"
+		"ControlName"		"Button"
+		"fieldName"		"warnshootinstack"
 		"font"			"DefaultSmall"
 		"xpos"			"500"
 		"ypos"			"290"
@@ -1141,12 +1141,33 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"Warn Ct baiting"
+		"labelText"		"Ct's shooting stack"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"Command"		"sm_say Please do not bait CTs. Keep your distance from the Ts.
+		"Command"		"sm_say CTs, quick reminder. NEVER shoot in stacks please."
 	}
+	"warnHomophobicslurs"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"warnHomophobicslurs"
+		"font"			"DefaultSmall"
+		"xpos"			"500"
+		"ypos"			"306"
+		"wide"			"80"
+		"tall"			"15"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"No homophobic slurs"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Command"		"sm_say No homophobic slurs on the server please."
+	}
+	
 
 
 	"Weapon_Back"
@@ -1185,6 +1206,21 @@
 		"fillcolor"		   "0 0 0 40"	 //Define background color, ClientScheme "color" section or a RGB 		
 		"scaleImage"	   "0"           //"0" = OFF "1" ON scale the image to its specified width and height.
 	}
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
 
 
 	"hell_Back"
